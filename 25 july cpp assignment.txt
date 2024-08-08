@@ -1,0 +1,622 @@
+1)
+
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=1 ;j<=5 ;j++)
+        {
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+_______________________________________________
+2)
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=1 ;j<=i ;j++)
+        {
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+________________________________________________
+3)
+
+1
+1 2
+1 2 3 
+1 2 3 4
+1 2 3 4 5 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=1 ;j<=i ;j++)
+        {
+            cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+__________________________________________________
+4)
+
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=1 ;j<=i ;j++)
+        {
+            cout<<i<<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+____________________________________________________
+5)
+
+*****
+****
+***
+**
+* 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=5 ;j>=i ;j--)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+_______________________________________________________
+6)
+
+12345
+1234
+123
+12
+1
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n=5;
+    for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=1 ;j<=n ;j++)
+        {
+            cout<<j;
+        }
+        n--;
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+_______________________________________________________
+7)
+ 
+        * 
+       ***
+      *****
+     *******
+    ********* 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n=5;
+    for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=1 ;j<=n ;j++)
+        {
+            cout<<" ";
+        }
+        n--;
+        
+        for(int j=1 ;j<=i ;j++)
+        {
+            cout<<"*";
+        }
+        for(int k=1 ;k<=i-1 ;k++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+________________________________________________________
+   
+8)
+    *********
+     *******
+      *****
+       ***
+        *
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n=4;
+   for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=1 ;j<=i ;j++)
+        {
+            cout<<" ";
+        }
+        for(int k=i ;k<=5 ;k++)
+        {
+            cout<<"*";
+        }
+        for(int l=1 ;l<=n ;l++)
+        {
+            cout<<"*";
+        }
+        n--;
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+______________________________________________________
+9)
+
+        * 
+       ***
+      *****
+     *******
+    ********* 
+    *********
+     *******
+      *****
+       ***
+        *
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n=5; 
+    for(int i=1 ;i<=n ;i++)
+    {
+        for(int j=1 ;j<=n-i ;j++)
+        {
+            cout<<" ";
+        }
+        for(int k=1 ;k<=2*i-1 ;k++)
+        {
+            cout<<"*";
+        }
+        for(int j=1 ;j<=n-i ;j++)
+        {
+            cout<<" ";
+        }
+        cout<<endl;
+    }
+    for(int i=0 ;i<n ;i++)
+    {
+        for(int j=0 ;j<i ;j++)
+        {
+            cout<<" ";
+        }
+        for(int k=0 ;k<2*n-(2*i+1) ;k++)
+        {
+            cout<<"*";
+        }
+        for(int j=0 ;j<i ;j++)
+        {
+            cout<<" ";
+        }
+         cout<<endl;
+    }
+
+    return 0;
+}
+
+_______________________________________________________
+10)
+
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{  
+    int n=5;
+     for(int i=1 ;i<=5 ;i++)
+     {
+         for(int j=1 ;j<=i ;j++)
+         {
+             cout<<"*";
+         }
+         cout<<endl;
+        
+     }
+     for(int i=1 ;i<=5 ;i++)
+     {
+          
+         for(int k=1 ; k<=n-1 ;k++ )
+         {
+             cout<<"*";
+         }
+         n--;
+         cout<<endl;
+     }
+
+    return 0;
+}
+______________________________________________________
+11)  
+
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n=5;
+     int start=1;
+    for(int i=0 ;i<n ;i++)
+    {
+        if(i%2==0) start=1;
+        else start =0;
+        for(int j=0 ;j<=i ;j++)
+        {
+            cout<<start;
+            start=1-start;
+        }
+        cout<<endl;
+    }
+     
+    return 0;
+}
+
+______________________________________________________
+12)
+
+1      1
+12    21
+123  321
+12344321
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n=4;
+     for(int i=1 ;i<=n ;i++)
+    {
+        for(int j=1 ;j<=i ;j++)
+        {
+            cout<<j;
+        }
+        for(int k=0 ;k<2*n-(2*i+1) ;k++)
+        {
+            cout<<" ";
+        }
+        for(int j=i ;j>=1 ;j--)
+        {
+            cout<<j;
+        }
+         cout<<endl;
+    }
+     
+    return 0;
+}
+
+
+______________________________________________________
+13)  
+
+1
+2  3
+4  5   6
+7  8  9  10
+11 12 13 14 15
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n=1;
+   for(int i=1 ;i<=5 ;i++)
+    {
+         for(int j=1 ;j<=i ;j++)
+        {
+            cout<<n<<" ";
+             n++;
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+_________________________________________________________
+14)
+
+A
+AB
+ABC
+ABCD
+ABCDE
+ABCDEF
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    for(int i=0 ;i<5 ;i++)
+    {
+        for(char j='A' ;j<='A'+i ;j++)
+        {
+           cout<<j;
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+__________________________________________________________
+15)
+
+ABCDE
+ABCD
+ABC
+AB
+A
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{  
+    int n=5;
+    
+    for(int i=0 ;i<n ;i++)
+    {
+        for(char j='A' ;j<='A'+(n-i-1) ;j++)
+        {
+           cout<<j;
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+____________________________________________________________
+16)
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{  
+    int n=5;
+    for(int i=0 ;i<n ;i++)
+    {
+         char b='A'+i;
+        for(char j=0 ;j<=i ;j++)
+        {
+           cout<<b;
+        }
+      //  b++;
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+
+______________________________________________________________
+17)
+
+    A
+   ABA
+  ABCBA
+ ABCDCBA
+ABCDEDCBA
+
+
+_______________________________________________________________
+18)
+
+E 
+D E
+C D E
+B C D E
+A B C D E
+
+
+
+_______________________________________________________________
+19)
+
+
+**********
+****  ****
+***    ***
+**      **
+*        *
+*        *
+**      **
+***    ***
+****  ****
+**********
+
+
+
+_______________________________________________________________
+20)
+
+*        *
+**      **
+***    ***
+****  ****
+**********
+****  ****
+***    ***
+**      **
+*        *
+
+__________________________________________________________
+21)
+
+****
+*  *
+*  *
+*  *
+****
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    for(int i=1 ;i<=5 ;i++)
+    {
+        for(int j=1 ;j<=5 ;j++)
+        {
+            if(i==1||j==1||i==5||j==5)
+            {
+                cout<<"*";
+            }
+            else cout<<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+__________________________________________________________
+22)
+
+4 4 4 4 4 4 4
+4 3 3 3 3 3 4
+4 3 2 2 2 3 4
+4 3 2 1 2 3 4
+4 3 2 2 2 3 4
+4 3 3 3 3 3 4
+4 4 4 4 4 4 4
+
+
+
+
+
+__________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
